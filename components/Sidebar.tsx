@@ -38,7 +38,7 @@ const Sidebar = ({user}: SiderbarProps) => {
                             />
                         </div>
                         <p className={cn("sidebar-label", {"!text-white": isActive})}>
-                            {item.label}
+                            {item.label} 
                         </p>
                     </Link>
                 )
