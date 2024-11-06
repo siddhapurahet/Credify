@@ -16,12 +16,13 @@ interface CustomInput {
   id: string,
 }
 
-const CustomInput = ({ control, id, name, label, placeholder }: CustomInput) => {
+const CustomInput = ({ control, id, name, city, label, placeholder }: CustomInput) => {
   return (
     <FormField
       control={control}
       name={name}
       id={id}
+      city={city}
       render={({ field }) => (
         <div className="form-item">
           <FormLabel className="form-label">

@@ -3,6 +3,7 @@
 # Folders/Files
 /public
 allinfo.txt
+.env
 
 # dependencies
 /node_modules
